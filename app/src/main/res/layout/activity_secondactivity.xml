@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".secondactivity">
+
+
+    <TextView
+        android:id="@+id/readMsg"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="177dp"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtitem"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/writeMsg"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="9dp"
+        android:inputType="textPersonName"
+        android:layout_toStartOf="@+id/sendButton"
+        android:background="@drawable/edit_round"
+        android:hint="Enter Msg..."
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="2dp"
+        android:text="Connection Status"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="98dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/button_round"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Send" />
+
+</RelativeLayout>
