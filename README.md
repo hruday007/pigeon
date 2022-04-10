@@ -12,12 +12,13 @@ Android chat Application for connecting and communicating to each other in areas
 ```
 
 
-Enable wifi to discover available devices, using Wi-Fi Peerto-Peer (P2P) Service Discovery allows you to 
-discover the services of nearby devices directly, without being connected to a network.
+Enable wifi to discover available devices, using Wi-Fi Peerto-Peer (P2P) Service Discovery
+allows you to discover the services of nearby devices directly, without being connected to
+a network.
 
-Device looks for other devices in range:   To be found by other devices, the first device, Device 1 must 
-be set to discoverable mode - this will allow other devices in the vicinity to detect its presence and 
-attempt to establish a connection.
+Device looks for other devices in range:   To be found by other devices, the first device,
+Device 1 must be set to discoverable mode - this will allow other devices in the vicinity 
+to detect its presence and attempt to establish a connection.
 
 
 
@@ -33,9 +34,10 @@ attempt to establish a connection.
 ```
 
 
-Two Bluetooth devices find each other:   When the two devices: Device 1 and device 2 find each other
-normally the discoverable device will detects device name. The Device name is the can be allocated
-by the user, or it will be the one allocated during manufacture.
+Two Bluetooth devices find each other:   When the two devices: Device 1 and device 2 
+find each other normally the discoverable device will detects device name. The Device
+name is the can be allocated by the user, or it will be the one allocated during 
+manufacture.
 
 
 
@@ -52,7 +54,8 @@ by the user, or it will be the one allocated during manufacture.
 ```
 
 
-Once the Device pairing has occurred, Messages can be exchanged between the devices.
+Once the Device pairing has occurred, Messages can be 
+exchanged between the devices.
 
 
 
